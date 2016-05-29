@@ -19,9 +19,9 @@ char flag=1;
 #define SUBSCRIBE_TOPIC "iot-2/cmd/+/fmt/json"
 #define AUTHMETHOD "use-token-auth"
 
-#define CLIENT_ID "d:ywsuqc:ArduinoBoard:90A2DA103E03"
-#define MS_PROXY "ywsuqc.messaging.internetofthings.ibmcloud.com"
-#define AUTHTOKEN "Arduino001"
+#define CLIENT_ID "d:<org_id>:<device_type>:<device_id>"
+#define MS_PROXY "<org_id>.messaging.internetofthings.ibmcloud.com"
+#define AUTHTOKEN "<auth_token>"
 // Update these with values suitable for your network.
 byte mac[] = { 0x90, 0xA2, 0xDA, 0x10, 0x3E, 0x03 };
 EthernetClient c; // replace by a YunClient if running on a Yun
